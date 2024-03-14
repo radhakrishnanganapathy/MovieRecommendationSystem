@@ -1,0 +1,39 @@
+PersonalizedRecommendationSystem : Movie
+
+3 Types of Recommendation :
+Content Based
+Collaborative filtering Bases
+Hybrid Based
+
+This project is Content Based
+
+Collecting Data set -> preprocessing -> creating model -> create webapp
+
+EDA - Exploratory data analysis
+
+Dataset -> https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+EDA process:
+Load data set in jupyter note book
+changing data type of some columns like overview , cast , crew , keyword
+Removing unwanted columns and removing unwanted values
+checking null values and duplicate
+merge some columns and convert to paragraph
+getting final data frame
+Tag field convert to Count Vectorizer
+creating a recommended function using a title col and list top five recommeded similar movies
+save data in pickle formate
+creating a streamlit app for user interface and search a movie title and listing a recommened movies for the user.
+
+creating api key for movie post -> refference api site http://developers.themoviedb.org/ not working
+https://www.omdbapi.com/ - working api site
+
+used temp mail - kotiwe4267@hdrlog.com
+Here is your key: c43e463f
+
+Please append it to all of your API requests,
+
+OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=c43e463f
+
+Click the following URL to activate your key: http://www.omdbapi.com/apikey.aspx?VERIFYKEY=84aaf1bb-04b7-4ea7-b25b-7f30225f3e64
+If you did not make this request, please disregard this email.
